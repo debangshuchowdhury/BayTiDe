@@ -14,7 +14,10 @@
  + PySINDy
 
  ## Datasets
- The datasets for each numerical example in the paper are available in [this](https://drive.google.com/drive/folders/18Xc7R6rcHbFmhH5mON04Y_6jh6usoeJd?usp=sharing) drive.
+ The datasets for each numerical example in the paper are available in [this](https://drive.google.com/drive/folders/18Xc7R6rcHbFmhH5mON04Y_6jh6usoeJd?usp=sharing) drive. The naming scheme for the drive is as follows:
+ + 'xdat.csv' refers to the state data
+ + 'xdatdot.csv' refers to the first derivative of the state data calculated using finite difference
+ All the data has been passed through a butterworth filter.
 
  ## BibTex
  If you use any part of the code, please cite us at:
